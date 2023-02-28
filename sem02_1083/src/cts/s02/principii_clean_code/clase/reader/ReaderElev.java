@@ -10,9 +10,13 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ReaderElev extends ReaderAplicant{
+    public ReaderElev(String fileName) {
+        super(fileName);
+    }
+
     @Override
-    public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
-        Scanner input2 = new Scanner(new File(file));
+    public List<Aplicant> readAplicanti() throws FileNotFoundException {
+        Scanner input2 = new Scanner(new File(super.getFileName()));
         input2.useDelimiter(",|\n");
         List<Aplicant> elevi = new ArrayList<Aplicant>();
 

@@ -12,8 +12,8 @@ public class Program {
 	public static void main(String[] args) {
 		List<Aplicant> listaAngajati;
 		try {
-			ReaderAplicant ra = new ReaderAngajat();
-			listaAngajati = ra.readAplicanti("angajati.txt");
+			ReaderAplicant ra = new ReaderAngajat("angajati.txt");
+			listaAngajati = ra.readAplicanti();
 			for(Aplicant angajat:listaAngajati)
 				System.out.println(angajat.toString());
 		} catch (FileNotFoundException e) {

@@ -6,5 +6,16 @@ import java.io.FileNotFoundException;
 import java.util.List;
 
 public abstract class ReaderAplicant {
-    public abstract List<Aplicant> readAplicanti(String file) throws FileNotFoundException;
+
+    private String fileName = "";
+
+    public abstract List<Aplicant> readAplicanti() throws FileNotFoundException;
+
+    public ReaderAplicant(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
 }
