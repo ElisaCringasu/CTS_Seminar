@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Seminar4_cts/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/../Seminar4_cts/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/sem02_1083/sem02_1083.iml" filepath="$PROJECT_DIR$/sem02_1083/sem02_1083.iml" />
     </modules>
   </component>
