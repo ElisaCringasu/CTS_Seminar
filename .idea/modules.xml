@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SeminarCTS.iml" filepath="$PROJECT_DIR$/SeminarCTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex_pt_test/ex_pt_test.iml" filepath="$PROJECT_DIR$/ex_pt_test/ex_pt_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex_pt_test/s2-2/s2-2.iml" filepath="$PROJECT_DIR$/ex_pt_test/s2-2/s2-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar10/seminar10.iml" filepath="$PROJECT_DIR$/seminar10/seminar10.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar11/seminar11.iml" filepath="$PROJECT_DIR$/seminar11/seminar11.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar12/seminar12.iml" filepath="$PROJECT_DIR$/seminar12/seminar12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar13/seminar13.iml" filepath="$PROJECT_DIR$/seminar13/seminar13.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar2/seminar2.iml" filepath="$PROJECT_DIR$/seminar2/seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar4/seminar4.iml" filepath="$PROJECT_DIR$/seminar4/seminar4.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar5/seminar5.iml" filepath="$PROJECT_DIR$/seminar5/seminar5.iml" />
